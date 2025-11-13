@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панибратский Дмитрий | Руководитель цепей поставок</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Дмитрий П.</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#experience">Опыт</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#education">Образование</a></li>
+                <li><a href="#ai-career">AI Помощники</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Привет, я <span class="highlight">Панибратский Дмитрий</span></h1>
+            <p>Руководитель по управлению цепями поставок и товарными запасами</p>
+            <p class="hero-subtitle">13+ лет опыта в логистике и управлении командами до 79 человек</p>
+            <div class="hero-badges">
+                <span class="badge">Логистика</span>
+                <span class="badge">SCM</span>
+                <span class="badge">Управление</span>
+                <span class="badge">Оптимизация</span>
+            </div>
+            <a href="#contact" class="btn">Связаться со мной</a>
+            <a href="#experience" class="btn btn-secondary">Мой опыт</a>
+        </div>
+        <div class="hero-image">
+            <div class="photo-placeholder">
+                <i class="fas fa-user-tie"></i>
+                <p>Фото Дмитрия</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>Опытный руководитель в управлении цепями поставок</strong> с более чем 13-летним опытом трансформации логистических операций в результат для бизнеса.</p>
+                    
+                    <div class="key-achievements">
+                        <h3>Ключевые достижения:</h3>
+                        <ul>
+                            <li>✅ Повысил эффективность процесса приемки товара в 2022 году</li>
+                            <li>✅ Вывел команду приемки на 2 ранг в стране по продуктивности</li>
+                            <li>✅ Снизил транспортные расходы на 10% через тендер</li>
+                            <li>✅ Увеличил равномерность поставок с 70.3% до 91.2%</li>
+                            <li>✅ Запустил 3 новых филиала с "0"</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">13+</div>
+                            <div class="stat-label">лет опыта</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">79</div>
+                            <div class="stat-label">человек в команде</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">87K</div>
+                            <div class="stat-label">SKU под управлением</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10%</div>
+                            <div class="stat-label">снижение затрат</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Опыт работы" -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Опыт работы</h2>
+            <div class="timeline">
+                <!-- Леруа Мерлен -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Март 2020 — Июль 2025</div>
+                    <div class="timeline-content">
+                        <h3>Менеджер цепи поставок магазина</h3>
+                        <div class="company">«ЛЕРУА МЕРЛЕН», Сургут</div>
+                        <div class="responsibilities">
+                            <p>Управление подразделениями приёмки, складские операции, пополнения, сборка, выдача, доставка (4000 м², 87 000 SKU).</p>
+                            <ul>
+                                <li>Организация работы персонала (79 специалистов)</li>
+                                <li>Оптимизация цепочек поставок и затрат</li>
+                                <li>Работа с матричной доступностью ассортимента (ABC-XYZ, FMR анализ)</li>
+                                <li>Использование ИИ для анализа данных и прогнозирования спроса</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Гринлайт -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Май 2018 — Декабрь 2019</div>
+                    <div class="timeline-content">
+                        <h3>Начальник склада</h3>
+                        <div class="company">ООО «ГРИНЛАЙТ» (Rossko), Сургут</div>
+                        <div class="responsibilities">
+                            <p>Организация приемки и размещения товаров на складе (500 м², 20 000 SKU).</p>
+                            <ul>
+                                <li>Управление коллективом (24 человека)</li>
+                                <li>Открытие и запуск филиалов в Ноябрьске, Ханты-Мансийске, Нижневартовске</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Остальной опыт можно добавить по аналогии -->
+                <div class="timeline-more">
+                    <button class="btn btn-outline" onclick="showAllExperience()">
+                        Показать весь опыт работы (13+ лет)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Навыки" -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Профессиональные навыки</h2>
+            <div class="skills-categories">
+                <div class="category">
+                    <h3><i class="fas fa-truck"></i> Логистика и SCM</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Управление цепочкой поставок</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Складская логистика</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Транспортная логистика</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3><i class="fas fa-chart-line"></i> Управление и Аналитика</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Управление командой</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ABC-XYZ анализ</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Бюджетирование и KPI</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3><i class="fas fa-laptop"></i> Технологии</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">1С: Предприятие</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">WMS системы</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Excel (аналитика)</span>
+                            <div class="skill-level">
+                                <div class="level-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Образование" -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Образование и сертификаты</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Коммерческий директор</h3>
+                    <div class="institution">Институт профессионального образования, Москва</div>
+                    <div class="year">2023</div>
+                </div>
+                <div class="education-item">
+                    <h3>Логистика, Снабжение, Закупки (MBA)</h3>
+                    <div class="institution">Международный центр дистанционного образования</div>
+                    <div class="year">2023</div>
+                </div>
+                <div class="education-item">
+                    <h3>Операционный логист</h3>
+                    <div class="institution">Челябинский техникум текстильной и легкой промышленности</div>
+                    <div class="year">2020</div>
+                </div>
+            </div>
+
+            <div class="certificates">
+                <h3>Сертификаты и курсы:</h3>
+                <ul>
+                    <li>«45 Татуировок менеджера» - Максим Батырев (2022)</li>
+                    <li>Методология Ицхака Адизиса - Tema.biz (2020)</li>
+                    <li>Логист - Эмменеджмент (2019)</li>
+                    <li>1С: Предприятие 8. Управление торговлей (2013)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "AI Помощники" для карьеры -->
+    <section id="ai-career" class="ai-career-section">
+        <div class="container">
+            <h2>AI-Помощники для Карьеры</h2>
+            <p class="section-subtitle">Интеллектуальные инструменты для эффективного поиска работы в логистике</p>
+            
+            <div class="ai-career-tools">
+                <div class="career-tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-comments"></i>
+                        <h3>AI Тренажер Собеседований</h3>
+                    </div>
+                    <div class="tool-content">
+                        <p>Потренируйся отвечать на вопросы HR по логистике и управлению</p>
+                        <div class="tool-features">
+                            <span class="feature-tag">Вопросы HR</span>
+                            <span class="feature-tag">Кейсы по логистике</span>
+                            <span class="feature-tag">Обратная связь</span>
+                        </div>
+                    </div>
+                    <div class="tool-actions">
+                        <button class="btn btn-primary" onclick="openCareerTool('interview')">
+                            <i class="fas fa-play"></i> Начать тренировку
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="career-tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-envelope"></i>
+                        <h3>AI Генератор Писем</h3>
+                    </div>
+                    <div class="tool-content">
+                        <p>Создай убедительные сопроводительные письма для вакансий в логистике</p>
+                        <div class="tool-features">
+                            <span class="feature-tag">Под компанию</span>
+                            <span class="feature-tag">Под вакансию</span>
+                            <span class="feature-tag">Автоподбор</span>
+                        </div>
+                    </div>
+                    <div class="tool-actions">
+                        <button class="btn btn-primary" onclick="openCareerTool('coverletter')">
+                            <i class="fas fa-play"></i> Создать письмо
+                        </button>
+                    </div>
+                </div>
+
+                <div class="career-tool-card">
+                    <div class="tool-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Анализ компетенций</h3>
+                    </div>
+                    <div class="tool-content">
+                        <p>Проанализируй свои сильные стороны и зоны роста</p>
+                        <div class="tool-features">
+                            <span class="feature-tag">Сильные стороны</span>
+                            <span class="feature-tag">Рекомендации</span>
+                            <span class="feature-tag">План развития</span>
+                        </div>
+                    </div>
+                    <div class="tool-actions">
+                        <button class="btn btn-primary" onclick="openCareerTool('analysis')">
+                            <i class="fas fa-play"></i> Проанализировать
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Контакты" -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <p>Готов к новым вызовам в управлении цепями поставок! Открыт к предложениям.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Телефон:</strong>
+                            <a href="tel:+79825810787">+7 (982) 581-07-87</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong>
+                            <a href="mailto:Dmitriy.Panibratskiy@yandex.ru">Dmitriy.Panibratskiy@yandex.ru</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Локация:</strong>
+                            Санкт-Петербург, Россия
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div>
+                            <strong>Предпочтения:</strong>
+                            Не готов к переезду, готов к командировкам до 50%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-links">
+                    <a href="https://t.me/ваш_телеграм" class="contact-link">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                    <a href="#" class="contact-link">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Панибратский Дмитрий. Руководитель цепей поставок.</p>
+            <p>Резюме обновлено: 24 октября 2025</p>
+        </div>
+    </footer>
+
+    <!-- AI-помощник -->
+    <div class="ai-assistant-widget">
+        <div class="ai-chat-container" id="aiChatContainer">
+            <div class="ai-chat-header">
+                <h4>AI Помощник по карьере</h4>
+                <span class="close-ai-chat" id="closeAiChat">×</span>
+            </div>
+            <div class="ai-chat-messages" id="aiChatMessages">
+                <div class="ai-message bot-message">
+                    Привет! Я AI-помощник Дмитрия. Могу рассказать о его опыте в логистике, помочь с вопросами по управлению цепями поставок или подготовить к собеседованию!
+                </div>
+            </div>
+            <div class="ai-chat-input">
+                <input type="text" id="aiChatInput" placeholder="Спроси о логистике, управлении...">
+                <button id="sendAiMessage">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        <button class="ai-assistant-btn" id="aiAssistantBtn">
+            <i class="fas fa-robot"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
